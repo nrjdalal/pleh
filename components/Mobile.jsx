@@ -2,8 +2,7 @@
 const Mobile = ({ children }) => {
   return (
     <>
-      {/* Mobile view */}
-      <div className="sm:hidden">{children}</div>
+      <div className="h-screen w-screen sm:hidden">{children}</div>
 
       {/* 640px view */}
       <div className="relative mt-4 hidden h-[98%] w-screen items-center justify-center sm:flex">
