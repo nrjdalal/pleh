@@ -12,7 +12,8 @@ const Home = () => {
           <input
             type="text"
             name=""
-            className="h-14 w-[212px] rounded-2xl border-2 font-mono text-3xl text-slate-700"
+            className="h-14 w-[216px] rounded-2xl border-2 font-mono text-3xl text-slate-700"
+            maxLength="10"
           />
 
           <Link href="/auth">
