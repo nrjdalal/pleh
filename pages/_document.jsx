@@ -16,6 +16,12 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
             rel="stylesheet"
           />
+          {/* PWA */}
+
+          <link rel="manifest" href="/manifest.json" />
+          <link href="icons/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
+          <link href="icons/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
+          <link rel="apple-touch-icon" href="icons/apple-icon.png"></link>
         </Head>
         <body>
           <Main />

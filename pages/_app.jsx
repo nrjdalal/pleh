@@ -1,8 +1,8 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+
 import Mobile from 'components/Mobile' // ~ For mobile development only, remove at production
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }) {
   return (
     <>
       <div className="h-screen w-screen overflow-x-hidden font-dmSans tracking-wide">

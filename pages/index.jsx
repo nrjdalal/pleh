@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="relative h-full w-full bg-slate-200 px-8">
+    <div className="relative h-full w-full bg-slate-100 px-8">
       <div className="absolute bottom-0 text-slate-900">
         <h1 className="text-2xl">We are Pleh!</h1>
 
