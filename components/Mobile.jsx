@@ -12,7 +12,7 @@ const Mobile = ({ children }) => {
 
         <div
           id="hideScrollbar"
-          className="z-10 aspect-[121/250] h-[88%] overflow-y-scroll rounded-b-[40px] rounded-t-[1%]"
+          className="z-10 aspect-[120.5/250] h-[88%] overflow-y-scroll rounded-b-[40px] rounded-t-[1%]"
         >
           {children}
         </div>

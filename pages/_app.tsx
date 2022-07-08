@@ -5,7 +5,7 @@ import Mobile from 'components/Mobile' // ~ For mobile development only, remove 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="h-screen w-screen overflow-x-hidden">
+      <div className="h-screen w-screen overflow-x-hidden font-dmSans tracking-wide">
         <Mobile>
           <Component {...pageProps} />
         </Mobile>
