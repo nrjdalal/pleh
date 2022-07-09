@@ -1,8 +1,6 @@
-const nextConfig = {
-  reactStrictMode: true,
-}
-
-module.exports = nextConfig
+// const nextConfig = {
+//   reactStrictMode: true,
+// }
 
 const path = require('path')
 const withPWA = require('next-pwa')
@@ -14,9 +12,10 @@ module.exports = withPWA({
     runtimeCaching,
   },
 
-  // This is not required to make it into a PWA, but is a nice way to clean up your imports
   webpack: (config) => {
     config.resolve.modules.push(path.resolve('./'))
     return config
   },
 })
+
+// module.exports = nextConfig
