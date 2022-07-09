@@ -38,7 +38,7 @@ const Home = () => {
             </button>
           </Link>
 
-          <Link href="/">
+          <Link href="/main">
             <button className="flex h-14 w-14 items-center justify-center rounded-full bg-slate-900 text-xl tracking-wider text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
