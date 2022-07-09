@@ -3,6 +3,16 @@ import Link from 'next/link'
 const Home = () => {
   return (
     <div className="relative h-full w-full bg-slate-100">
+      <div className="aspect-square w-full px-8">
+        <img className="rounded-xl pt-12" src="chibird/may-23-1.jpg" alt="" />
+      </div>
+
+      <div className="mt-8 px-8">
+        <button className="h-14 w-full cursor-pointer rounded-full bg-slate-900 text-xl tracking-wider text-white">
+          Book a free session
+        </button>
+      </div>
+
       <div className="absolute bottom-0 flex h-20 w-full items-center justify-around border-t-2 bg-slate-50 px-8 pb-6 text-slate-900">
         <svg
           xmlns="http://www.w3.org/2000/svg"
