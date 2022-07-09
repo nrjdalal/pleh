@@ -2,6 +2,8 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
+module.exports = nextConfig
+
 const path = require('path')
 const withPWA = require('next-pwa')
 const runtimeCaching = require('next-pwa/cache')
@@ -18,5 +20,3 @@ module.exports = withPWA({
     return config
   },
 })
-
-module.exports = nextConfig
