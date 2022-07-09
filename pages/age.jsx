@@ -23,7 +23,7 @@ const Home = () => {
         </div>
 
         <div className="mb-16 mt-12 flex justify-between">
-          <Link href="/">
+          <Link href="/auth">
             <button className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-slate-900 bg-slate-100 text-xl tracking-wider text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
