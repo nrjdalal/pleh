@@ -4,16 +4,23 @@ const Home = () => {
   return (
     <div className="relative h-full w-full bg-slate-100 ">
       <div className="absolute bottom-0 px-8 text-slate-900">
-        <h1 className="text-2xl">Please enter your number.</h1>
+        <h1 className="text-2xl">Please enter your age.</h1>
 
-        <h2 className="mt-2 text-2xl">This is so we can book appointments for you.</h2>
+        {/* <h2 className="mt-2 text-2xl">This is so we can book appointments for you.</h2> */}
 
-        <input
-          type="text"
-          name=""
-          className="mt-24 h-14 w-full rounded-full border-2 text-center font-mono text-3xl text-slate-700"
-          maxLength="10"
-        />
+        <div className="mt-24 flex flex-wrap gap-4">
+          <button className="h-14 cursor-pointer rounded-full bg-slate-900 px-12 text-xl tracking-wider text-white">
+            13-17
+          </button>
+
+          <button className="h-14 cursor-pointer rounded-full border-2 border-slate-900 bg-slate-100 px-12 text-xl tracking-wider text-black">
+            18-25
+          </button>
+
+          <button className="h-14 cursor-pointer rounded-full bg-slate-900 px-12 text-xl tracking-wider text-white">
+            25 and plus
+          </button>
+        </div>
 
         <div className="mb-16 mt-12 flex justify-between">
           <Link href="/">
@@ -31,7 +38,7 @@ const Home = () => {
             </button>
           </Link>
 
-          <Link href="/age">
+          <Link href="/">
             <button className="flex h-14 w-14 items-center justify-center rounded-full bg-slate-900 text-xl tracking-wider text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
